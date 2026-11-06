@@ -12,13 +12,16 @@
 		"format:check": "prettier --check ."
 	},
 	"dependencies": {
+		"@tanstack/react-query": "^5.106.1",
 		"@tanstack/react-router": "^1.170.46",
 		"@tanstack/react-router-devtools": "^1.167.2",
+		"axios": "^1.21.0",
 		"react": "^19.3.1",
 		"react-dom": "^19.3.1"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
+		"@tanstack/react-query-devtools": "^5.106.1",
 		"@tanstack/router-plugin": "^1.168.48",
 		"@types/node": "^24.19.2",
 		"@types/react": "^19.3.0",
