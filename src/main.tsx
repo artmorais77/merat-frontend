@@ -6,6 +6,9 @@ import { StrictMode } from "react";
 import { routeTree } from "./routeTree.gen";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import { z } from "zod";
+
+z.config(z.locales.ptBR());
 
 const router = createRouter({
 	routeTree,
